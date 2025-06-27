@@ -1,8 +1,8 @@
 # How all the folders connect
 
-code            scripts/ , inference/                    Git
-Data            data/, models/, *.dvc                    DVC
-Pipeline        dvc.yaml, dvc.lock                       DVC
-Training logs   mlruns/                                  MLflow
-App delivery    Dockerfile, app.py, deployment           Docker/K8s
-Scheduling      airflow/dags/                            Apache Airflow
+code ---------- scripts/ , inference/ ------------------ Git /n
+Data ---------- data/, models/, *.dvc ------------------ DVC /n
+Pipeline ------ dvc.yaml, dvc.lock --------------------- DVC /n
+Training logs - mlruns/ -------------------------------- MLflow /n
+App delivery -- Dockerfile, app.py, deployment --------- Docker/K8s /n
+Scheduling ---- airflow/dags/ -------------------------- Apache Airflow /n
